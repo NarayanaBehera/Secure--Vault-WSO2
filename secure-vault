@@ -1,1 +1,1 @@
-<property expression="wso2:vault-lookup(fn:concat('payload.key.', $ctx:name))" name="Name" scope="default" type="STRING"/>
+<property expression="wso2:vault-lookup('payload.key.name')" name="Name" scope="default" type="STRING"/>
